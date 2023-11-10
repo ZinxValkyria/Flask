@@ -23,11 +23,11 @@ jobs:
 
     - name: Install dependencies
       run: |
-        cd flask/login
+        cd Flask/login
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
     - name: Run tests
       run: |
-        cd flask/login
+        cd Flask/login
         python -m unittest discover -s tests
