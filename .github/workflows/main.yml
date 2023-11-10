@@ -30,4 +30,4 @@ jobs:
     - name: Run tests
       run: |
         cd Flask/login
-        python -m unittest discover -s login -p 'app.py'
+        python -m unittest discover -s Flask/login -p 'app.py'
